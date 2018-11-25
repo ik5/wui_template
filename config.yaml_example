@@ -1,0 +1,20 @@
+---
+env: "debug"
+port: 3000
+address: "0.0.0.0"
+
+dbhost: "localhost"
+dbname: ""
+dbport: 5432
+dbuser: ""
+dbpassword: ""
+
+log_file: "debug.log"
+log_level: "trace"
+
+use_syslog: true
+syslog_socket_type: "udp"
+syslog_address: "localhost:514"
+syslog_tag: ""
+syslog_facility: "local7"
+syslog_level: "debug"
